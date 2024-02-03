@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 mpMusic.setVolume(0.25F,0.25F);
                 mpKaraoke.setVolume(0,0);
             });
-            //純恋歌（カラオケ）を音量1にする
+            //純恋歌（カラオケ）の音量をもとに戻す
             mpKaraoke.setVolume(0.25F,0.25F);
         });
 
